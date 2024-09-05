@@ -2,18 +2,36 @@ import cv2 as cv
 import numpy as np
 import os
 from openpyxl import Workbook
+import matplotlib.pyplot as plt
 
-wb = Workbook()
-ws = wb.active
+wb1 = Workbook()
+ws1 = wb1.active
+wb2 = Workbook()
+ws2 = wb2.active
+wb3 = Workbook()
+ws3 = wb3.active
 
-data = [
+def int_list_to_string(int_list):
+    return ' '.join(str(num) for num in int_list)
+
+def max_index(arr):
+    return arr.index(max(arr))
+
+
+tabledata = [
     ['filename', 'color1', 'color1_ratio',
      'color2', 'color2_ratio',
      'color3', 'color3_ratio',
      'color4', 'color4_ratio',
      'color5', 'color5_ratio',
      'color6', 'color6_ratio',
-     'color7', 'color7_ratio']
+     'color7', 'color7_ratio'],
+]
+maincolorlist = [
+    ['maincolor'],
+]
+auxiliarycolorlist = [
+    ['auxiliarycolor'],
 ]
 
 folder_path = 'TestImage'
@@ -43,10 +61,10 @@ for file_name in file_names:
     # 计算各类别像素的比率
     clusters = np.float32(clusters) / float(h*w)
     center = np.int32(center)
-    print(center)
     x_offset = 0
     ratio = []
     total = 0
+    strcenter = []
     for c in range(num_clusters):
         dx = int(clusters[c] * w)
         ratio.append(dx)
@@ -56,23 +74,55 @@ for file_name in file_names:
         cv.rectangle(card, (x_offset, 0), (x_offset+dx, 50),
                      (int(b),int(g),int(r)), -1)
         x_offset += dx
-    print(ratio)
     total = sum(ratio)
+    maincolorindex = max_index(ratio)
+
+
+    # 聚类后图片显示
+    centers = np.uint8(center)
+    res = centers[label.flatten()]
+    ds = res.reshape((image.shape))
+    #ds = cv.cvtColor(ds,)
+
     for i in range(7):
         ratio[i] = ratio[i] / total
-    print(ratio)
-    newdata = [file_name, center[0].tolist(), ratio[0],
-               center[1].tolist(), ratio[1],
-               center[2].tolist(), ratio[2],
-               center[3].tolist(), ratio[3],
-               center[4].tolist(), ratio[4],
-               center[5].tolist(), ratio[5],
-               center[6].tolist(), ratio[6]]
+        ratio[i] = str(ratio[i])
+    for i in range(7):
+        intcenter = center[i].tolist()
+        strcenter.append(int_list_to_string(intcenter))
+    print(strcenter)
+
+    for i in range(7):
+        if i == maincolorindex:
+            maincolortoadd = [strcenter[i]]
+            maincolorlist.append(maincolortoadd)
+        else:
+            auxiliarycolortoadd = [strcenter[i]]
+            auxiliarycolorlist.append(auxiliarycolortoadd)
+
+    print(maincolorlist)
+    print(auxiliarycolorlist)
+
+    newdata = [file_name, strcenter[0], ratio[0],
+               strcenter[1], ratio[1],
+               strcenter[2], ratio[2],
+               strcenter[3], ratio[3],
+               strcenter[4], ratio[4],
+               strcenter[5], ratio[5],
+               strcenter[6], ratio[6]]
     print(newdata)
-    #data.append(newdata)
-    cv.imwrite('ColorTable/' + file_name, card)
+    tabledata.append(newdata)
+    #cv.imwrite('ColorTable/' + file_name, card)
+    cv.imwrite('TestClusteredImage/' + file_name, ds)
+    cv.imwrite('TestClusteredImage/card.jpeg', card)
 
-for row in data:
-    ws.append(row)
+"""for row in tabledata:
+    ws1.append(row)
+for row in maincolorlist:
+    ws2.append(row)
+for row in auxiliarycolorlist:
+    ws3.append(row)
 
-wb.save('colordata.xlsx')
+wb1.save('colordata.xlsx')
+wb2.save('maincolorlist.xlsx')
+wb3.save('auxiliarycolorlist.xlsx')"""

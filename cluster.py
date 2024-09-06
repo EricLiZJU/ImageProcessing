@@ -34,13 +34,14 @@ auxiliarycolorlist = [
     ['auxiliarycolor'],
 ]
 
-folder_path = 'TestImage'
+folder_path = 'FiltedImage'
 file_names = os.listdir(folder_path)
 file_names = [file_name for file_name in file_names if file_name != '.DS_Store']
+count = 1
 
 for file_name in file_names:
-    print(file_name)
-    image = cv2.imread('TestImage/' + file_name)
+    print(count)
+    image = cv2.imread('FiltedImage/' + file_name)
     cv2.imshow("input", image)
     h, w, ch = image.shape
 
@@ -100,9 +101,6 @@ for file_name in file_names:
             auxiliarycolortoadd = [strcenter[i]]
             auxiliarycolorlist.append(auxiliarycolortoadd)
 
-    print(maincolorlist)
-    print(auxiliarycolorlist)
-
     newdata = [file_name, strcenter[0], ratio[0],
                strcenter[1], ratio[1],
                strcenter[2], ratio[2],
@@ -110,13 +108,13 @@ for file_name in file_names:
                strcenter[4], ratio[4],
                strcenter[5], ratio[5],
                strcenter[6], ratio[6]]
-    print(newdata)
     tabledata.append(newdata)
-    #cv.imwrite('ColorTable/' + file_name, card)
-    cv2.imwrite('TestClusteredImage/' + file_name, ds)
-    cv2.imwrite('TestClusteredImage/card.jpeg', card)
+    cv2.imwrite('ColorTable/' + file_name, card)
+    #cv2.imwrite('TestClusteredImage/' + file_name, ds)
+    #cv2.imwrite('TestClusteredImage/card.jpeg', card)
+    count = count + 1
 
-"""for row in tabledata:
+for row in tabledata:
     ws1.append(row)
 for row in maincolorlist:
     ws2.append(row)
@@ -125,4 +123,4 @@ for row in auxiliarycolorlist:
 
 wb1.save('colordata.xlsx')
 wb2.save('maincolorlist.xlsx')
-wb3.save('auxiliarycolorlist.xlsx')"""
+wb3.save('auxiliarycolorlist.xlsx')

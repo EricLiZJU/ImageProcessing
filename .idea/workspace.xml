@@ -4,13 +4,290 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2358011-1370-44f4-8b6d-32dfb72e7a59" name="Changes" comment="Second Commit">
-      <change afterPath="$PROJECT_DIR$/apriori.py" afterDir="false" />
+    <list default="true" id="d2358011-1370-44f4-8b6d-32dfb72e7a59" name="Changes" comment="Third Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RGB2HSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/RGB2HSV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuxiliaryColor/0.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/AuxiliaryColor/0.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuxiliaryColor/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/AuxiliaryColor/1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuxiliaryColor/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/AuxiliaryColor/2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuxiliaryColor/3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/AuxiliaryColor/3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuxiliaryColor/4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/AuxiliaryColor/4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuxiliaryColor/5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/AuxiliaryColor/5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuxiliaryColor/6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/AuxiliaryColor/6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuxiliaryColor/7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/AuxiliaryColor/7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuxiliaryColor/8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/AuxiliaryColor/8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuxiliaryColor/9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/AuxiliaryColor/9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p10.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p11.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p15.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p17.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p17.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p18.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p19.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p20.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p21.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p22.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p22.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p23.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p23.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p24.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p24.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p25.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p25.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p26.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p27.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p28.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p28.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p29.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p29.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p30.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p31.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p32.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p32.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p33.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p34.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p34.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p35.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p35.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p36.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p36.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p37.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p37.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p38.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p38.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p39.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p39.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p40.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p41.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p42.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p43.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p43.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p44.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p44.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p45.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p45.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p46.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p47.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p48.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p48.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p49.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p49.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p50.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p51.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p51.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p52.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p52.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p53.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p53.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p54.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p54.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p55.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p56.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p57.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p58.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p58.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p59.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p59.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p60.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p60.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p61.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p61.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p62.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p62.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p63.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p63.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p64.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p65.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p66.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p67.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p68.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p68.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p69.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p69.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p70.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p78.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p78.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColorTable/p9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ColorTable/p9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p15.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p17.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p17.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p18.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p19.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p20.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p21.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p22.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p22.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p23.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p23.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p24.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p24.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p25.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p25.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p26.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p26.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p27.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p27.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p28.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p28.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p29.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p29.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p30.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p31.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p32.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p32.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p33.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p34.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p34.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p35.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p35.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p36.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p36.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p37.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p37.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p38.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p38.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p39.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p39.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p40.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p41.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p42.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p43.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p43.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p44.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p44.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p45.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p45.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p46.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p46.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p47.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p48.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p48.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p49.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p49.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p50.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p50.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p51.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p51.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p52.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p52.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p53.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p53.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p54.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p54.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p55.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p56.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p57.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p58.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p58.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p59.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p59.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p60.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p60.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p61.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p61.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p62.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p62.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p63.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p63.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p64.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p65.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p66.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p66.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p67.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p68.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p68.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p69.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p69.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p70.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p70.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p78.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p78.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiltedImage/p9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FiltedImage/p9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSVvalue.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HSVvalue.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainColor/0.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/MainColor/0.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainColor/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/MainColor/1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainColor/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/MainColor/2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainColor/3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/MainColor/3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainColor/4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/MainColor/4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p15.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p17.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p17.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p18.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p19.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p20.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p21.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p22.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p22.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p23.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p23.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p24.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p24.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p25.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p25.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p26.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p26.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p27.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p27.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p28.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p28.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p29.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p29.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p30.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p31.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p32.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p32.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p33.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p34.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p34.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p35.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p35.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p36.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p36.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p37.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p37.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p38.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p38.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p39.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p39.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p40.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p41.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p42.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p43.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p43.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p44.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p44.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p45.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p45.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p46.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p46.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p47.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p48.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p48.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p49.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p49.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p50.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p50.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p51.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p51.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p52.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p52.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p53.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p53.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p54.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p54.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p55.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p56.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p57.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p58.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p58.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p59.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p59.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p60.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p60.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p61.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p61.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p62.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p62.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p63.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p63.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p64.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p65.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p66.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p66.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p67.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p68.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p68.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p69.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p69.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p70.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p70.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p78.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p78.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceImage/p9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SourceImage/p9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestClusteredImage/4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestClusteredImage/5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestClusteredImage/6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestClusteredImage/7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestClusteredImage/card.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestClusteredImage/p.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestClusteredImage/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestClusteredImage/p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestClusteredImage/p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestImage/p.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxiliarycolorlist.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/auxiliarycolorlist.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/cluster.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/filter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secondcluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/secondcluster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clusteredauxiliarycolor.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/clusteredauxiliarycolor.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clusteredmaincolor.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/clusteredmaincolor.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colordata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/colordata.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maincolorlist.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/maincolorlist.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +333,7 @@
     "Python.filter.executor": "Run",
     "Python.firstcluster.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.secondcluster.executor": "Run",
     "Python.secondfilter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -76,7 +354,7 @@
       <recent name="$PROJECT_DIR$/SourceImage" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.RGB2HSV">
+  <component name="RunManager" selected="Python.apriori">
     <configuration name="RGB2HSV" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ImageProcessing" />
       <option name="ENV_FILES" value="" />
@@ -217,8 +495,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.RGB2HSV" />
         <item itemvalue="Python.apriori" />
+        <item itemvalue="Python.RGB2HSV" />
         <item itemvalue="Python.secondcluster" />
         <item itemvalue="Python.cluster" />
         <item itemvalue="Python.firstcluster" />
@@ -241,7 +519,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725433074881</updated>
-      <workItem from="1725433106568" duration="33619000" />
+      <workItem from="1725433106568" duration="35372000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <option name="closed" value="true" />
@@ -251,7 +529,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725527322633</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Third Commit">
+      <option name="closed" value="true" />
+      <created>1725602875911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725602875911</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,14 +545,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="Third Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third Commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ImageProcessing$apriori.coverage" NAME="apriori Coverage Results" MODIFIED="1725602578205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ImageProcessing$apriori.coverage" NAME="apriori Coverage Results" MODIFIED="1725604508713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ImageProcessing$firstcluster.coverage" NAME="firstcluster Coverage Results" MODIFIED="1725437779352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ImageProcessing$secondfilter.coverage" NAME="secondfilter Coverage Results" MODIFIED="1725527079989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ImageProcessing$cluster.coverage" NAME="cluster Coverage Results" MODIFIED="1725522323705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ImageProcessing$RGB2HSV.coverage" NAME="RGB2HSV Coverage Results" MODIFIED="1725602840034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ImageProcessing$main.coverage" NAME="filter Coverage Results" MODIFIED="1725435563180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ImageProcessing$secondfilter.coverage" NAME="secondcluster Coverage Results" MODIFIED="1725604444592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ImageProcessing$cluster.coverage" NAME="cluster Coverage Results" MODIFIED="1725603434609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ImageProcessing$RGB2HSV.coverage" NAME="RGB2HSV Coverage Results" MODIFIED="1725604481713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ImageProcessing$main.coverage" NAME="filter Coverage Results" MODIFIED="1725603075131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

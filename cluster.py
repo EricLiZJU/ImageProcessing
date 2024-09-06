@@ -1,4 +1,4 @@
-import cv2 as cv
+import cv2
 import numpy as np
 import os
 from openpyxl import Workbook
@@ -40,8 +40,8 @@ file_names = [file_name for file_name in file_names if file_name != '.DS_Store']
 
 for file_name in file_names:
     print(file_name)
-    image = cv.imread('TestImage/' + file_name)
-    cv.imshow("input", image)
+    image = cv2.imread('TestImage/' + file_name)
+    cv2.imshow("input", image)
     h, w, ch = image.shape
 
     # 构建图像数据
@@ -49,9 +49,9 @@ for file_name in file_names:
     data = np.float32(data)
 
     # 图像分割
-    criteria = (cv.TERM_CRITERIA_EPS + cv.TERM_CRITERIA_MAX_ITER, 10, 1.0)
+    criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 10, 1.0)
     num_clusters = 7
-    ret, label, center = cv.kmeans(data, num_clusters, None, criteria, num_clusters, cv.KMEANS_RANDOM_CENTERS)
+    ret, label, center = cv2.kmeans(data, num_clusters, None, criteria, num_clusters, cv2.KMEANS_RANDOM_CENTERS)
 
     # 生成主色彩条形卡片
     card = np.zeros((50, w, 3), dtype=np.uint8)
@@ -71,7 +71,7 @@ for file_name in file_names:
         b = center[c][0]
         g = center[c][1]
         r = center[c][2]
-        cv.rectangle(card, (x_offset, 0), (x_offset+dx, 50),
+        cv2.rectangle(card, (x_offset, 0), (x_offset+dx, 50),
                      (int(b),int(g),int(r)), -1)
         x_offset += dx
     total = sum(ratio)
@@ -113,8 +113,8 @@ for file_name in file_names:
     print(newdata)
     tabledata.append(newdata)
     #cv.imwrite('ColorTable/' + file_name, card)
-    cv.imwrite('TestClusteredImage/' + file_name, ds)
-    cv.imwrite('TestClusteredImage/card.jpeg', card)
+    cv2.imwrite('TestClusteredImage/' + file_name, ds)
+    cv2.imwrite('TestClusteredImage/card.jpeg', card)
 
 """for row in tabledata:
     ws1.append(row)

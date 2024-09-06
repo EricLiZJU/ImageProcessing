@@ -25,7 +25,7 @@ sheet4 = workbook4.active
 maincolorstoadd = np.array([])
 auxiliarycolorstoadd = np.array([])
 maincolors = np.empty((1, 3), int)
-auxiliarycolors = np.array([[1, 1, 1]])
+auxiliarycolors = np.empty((1, 3), int)
 
 clusteredmaincolorlist = [
     ['clusteredmaincolor'],
@@ -37,13 +37,12 @@ clusteredauxiliarycolorlist = [
 for row in sheet1.iter_rows(values_only=True):
     row = list(row)
     row = row[0].split()
-
     if row[0].isdigit():
-        RGBvalues = np.array(row)
-        RGBvalues = RGBvalues.astype(int)
-        RGBvalues = np.array([RGBvalues])
+        BGRvalues = np.array(row)
+        BGRvalues = BGRvalues.astype(int)
+        BGRvalues = np.array([BGRvalues])
         #print(np.shape(RGBvalues))
-        maincolors = np.append(maincolors, RGBvalues, axis=0)
+        maincolors = np.append(maincolors, BGRvalues, axis=0)
         #print(maincolors)
 
 #print(maincolors)
@@ -53,11 +52,11 @@ for row in sheet2.iter_rows(values_only=True):
     row = row[0].split()
 
     if row[0].isdigit():
-        RGBvalues = np.array(row)
-        RGBvalues = RGBvalues.astype(int)
-        RGBvalues = np.array([RGBvalues])
+        BGRvalues = np.array(row)
+        BGRvalues = BGRvalues.astype(int)
+        BGRvalues = np.array([BGRvalues])
         # print(np.shape(RGBvalues))
-        auxiliarycolors = np.append(auxiliarycolors, RGBvalues, axis=0)
+        auxiliarycolors = np.append(auxiliarycolors, BGRvalues, axis=0)
         # print(maincolors)
 
 #print(auxiliarycolors)
